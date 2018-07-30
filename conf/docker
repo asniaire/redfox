@@ -1,0 +1,1 @@
+docker run -p3306:3306 --name redfox-db -e MYSQL_ROOT_PASSWORD=root -d mysql:5.6

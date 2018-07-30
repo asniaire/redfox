@@ -91,17 +91,3 @@ Also, if you want to modify the connection pool parameters, you can do that from
 - java 8
 - mysql 5.6
 ```
-
-## Structure directory
-This is the structure directory of the deliverable.
->├── README.md
-├── conf
-│   ├── **db-initializer.sql**
-│   └── **docker**
-├── pom.xml
-├── src
-│	├── java ...
-│	├── resources
-│   │       ├── META-INF
-│   │       │   └── **persistence.xml**
-│   │       └── **logback.xml**

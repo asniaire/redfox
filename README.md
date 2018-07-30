@@ -1,4 +1,5 @@
 # RedFox - v1.0
+[![Build Status](https://travis-ci.org/asniaire/redfox.svg?branch=master)](https://travis-ci.org/asniaire/redfox)
 
 ## Overview
 This project scans and downloads all the images included in the url provided as parameter, checks if the image is a valid one (png or jpeg) and stores for each image the following fields in our database:

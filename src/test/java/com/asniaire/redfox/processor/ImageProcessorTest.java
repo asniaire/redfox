@@ -17,7 +17,7 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class ImageProcessorTest {
 
-    public static final String EXAMPLE_URL = "http://www.example.com";
+    private static final String EXAMPLE_URL = "http://www.example.com";
 
     @Mock private ImageRepository imageRepository;
     @Mock private LocalStorage localStorage;
@@ -80,4 +80,5 @@ public class ImageProcessorTest {
     private ImageInfo buildImageInfo(byte[] imageBytes, ImageType imageType, String url) {
         return new ImageInfo(imageBytes, imageType, url);
     }
+
 }

@@ -12,4 +12,5 @@ public class UrlNotAccessibleException extends Exception {
         super(String.format("Url '%s' cannot be open", url));
         this.url = url;
     }
+
 }

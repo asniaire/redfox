@@ -1,4 +1,5 @@
 # RedFox - v1.0
+[![Build Status](https://travis-ci.org/asniaire/redfox.svg?branch=master)](https://travis-ci.org/asniaire/redfox)
 
 ## Overview
 This project scans and downloads all the images included in the url provided as parameter, checks if the image is a valid one (png or jpeg) and stores for each image the following fields in our database:
@@ -91,17 +92,3 @@ Also, if you want to modify the connection pool parameters, you can do that from
 - java 8
 - mysql 5.6
 ```
-
-## Structure directory
-This is the structure directory of the deliverable.
->├── README.md
-├── conf
-│   ├── **db-initializer.sql**
-│   └── **docker**
-├── pom.xml
-├── src
-│	├── java ...
-│	├── resources
-│   │       ├── META-INF
-│   │       │   └── **persistence.xml**
-│   │       └── **logback.xml**

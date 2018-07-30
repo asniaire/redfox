@@ -58,4 +58,5 @@ public class CommonsCliCommandLine extends AppCommandLine {
         HelpFormatter formatter = new HelpFormatter();
         formatter.printHelp("redfox", options);
     }
+
 }

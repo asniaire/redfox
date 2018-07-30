@@ -12,4 +12,5 @@ public class NoImageDetectedException extends Exception {
         super(String.format("Image with fileName '%s' is not an image", fileName));
         this.fileName = fileName;
     }
+
 }

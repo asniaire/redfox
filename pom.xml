@@ -8,7 +8,7 @@
 
     <groupId>com.asniaire</groupId>
     <artifactId>redfox</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <java.version>1.8</java.version>
@@ -19,7 +19,7 @@
         <logback-classic.version>1.0.13</logback-classic.version>
         <commons-cli.version>1.4</commons-cli.version>
         <commons-io.version>2.6</commons-io.version>
-        <tika.core.version>1.13</tika.core.version>
+        <tika.core.version>1.19.1</tika.core.version>
         <jsoup.version>1.10.3</jsoup.version>
         <junit.version>4.12</junit.version>
         <mockito.version>1.10.19</mockito.version>
